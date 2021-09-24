@@ -23,7 +23,6 @@ p_value <- results[3]$p.value
 可见p值为0.14 > 0.05, 因此t检验认为两组样本来自同一分布。
 
 ```{r}
-library(ggplot2)
-plot(rep('1', times=length(y_1)), y_1)
-plot(rep('2', times=length(y_2)), y_2)
+#library(ggplot2)
+df = data.frame(y_1 = y_1)
 ```
