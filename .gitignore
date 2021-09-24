@@ -8,3 +8,4 @@ mod/logs/
 pkg/
 trash/
 *.pyc
+.Rproj.user
